@@ -27,6 +27,10 @@ version: 1.0.0
 date-released: 2026-11-05
 license: MIT
 repository-code: "https://github.com/yangjinghan221/ap-audit"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23972666
+    description: "Version 1.0.0, archived on Zenodo"
 keywords:
   - oriented object detection
   - average precision

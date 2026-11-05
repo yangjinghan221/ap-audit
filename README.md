@@ -1,5 +1,7 @@
 # ap-audit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23972666.svg)](https://doi.org/10.5281/zenodo.23972666)
+
 Protocol-ambiguity audit tools for oriented ship detection under missing modalities.
 
 Companion code for the manuscript:
@@ -103,10 +105,15 @@ If you use these tools, please cite the paper and this repository:
                   under missing modalities},
   year         = {2026},
   version      = {1.0.0},
-  url          = {https://github.com/yangjinghan221/ap-audit},
+  doi          = {10.5281/zenodo.23972666},
+  url          = {https://doi.org/10.5281/zenodo.23972666},
   note         = {MIT licensed}
 }
 ```
+
+The DOI above is version-specific (v1.0.0). To cite the tool in general, use the
+concept DOI `10.5281/zenodo.23972665`, which always resolves to the latest
+version.
 
 Machine-readable metadata is in `CITATION.cff` (GitHub renders a "Cite this
 repository" button from it) and `.zenodo.json` (read by Zenodo when a release is
