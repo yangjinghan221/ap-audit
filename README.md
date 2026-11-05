@@ -92,6 +92,26 @@ recall happens to sit.
 Comments in the source are in Chinese. The interfaces, argument names and
 printed tables are English; no Chinese is required to run the tools.
 
+## Citing
+
+If you use these tools, please cite the paper and this repository:
+
+```bibtex
+@software{yang2026apaudit,
+  author       = {Yang, Jinghan and Liu, Dawei and Ma, Zhaoyang},
+  title        = {ap-audit: AP re-scoring tools for oriented ship detection
+                  under missing modalities},
+  year         = {2026},
+  version      = {1.0.0},
+  url          = {https://github.com/yangjinghan221/ap-audit},
+  note         = {MIT licensed}
+}
+```
+
+Machine-readable metadata is in `CITATION.cff` (GitHub renders a "Cite this
+repository" button from it) and `.zenodo.json` (read by Zenodo when a release is
+archived).
+
 ## License
 
 MIT. See `LICENSE`.

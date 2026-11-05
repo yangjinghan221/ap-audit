@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use these tools in published work, please cite this repository and the accompanying paper."
+type: software
+title: "ap-audit: AP re-scoring tools for oriented ship detection under missing modalities"
+abstract: >-
+  Pure-Python tools that recompute average precision from exported prediction
+  files under either the all-point or the 11-point interpolation rule, switch
+  the recall denominator between the full ground-truth set and the subset that
+  remains after doubly-missing samples are excluded, and score the same
+  predictions against either optical or SAR annotations. Every number reported
+  in the accompanying letter can be re-derived offline from a single prediction
+  file; no training is required to reproduce a metric.
+authors:
+  - family-names: Yang
+    given-names: Jinghan
+    orcid: "https://orcid.org/0009-0007-0198-4098"
+    affiliation: "Engineering University of PAP"
+  - family-names: Liu
+    given-names: Dawei
+    orcid: "https://orcid.org/0000-0003-2471-4713"
+    affiliation: "Engineering University of PAP"
+  - family-names: Ma
+    given-names: Zhaoyang
+    orcid: "https://orcid.org/0009-0007-8875-3515"
+    affiliation: "Engineering University of PAP"
+version: 1.0.0
+date-released: 2026-11-05
+license: MIT
+repository-code: "https://github.com/yangjinghan221/ap-audit"
+keywords:
+  - oriented object detection
+  - average precision
+  - evaluation protocol
+  - missing modalities
+  - remote sensing
+  - reproducibility

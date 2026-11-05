@@ -1,0 +1,34 @@
+{
+  "title": "ap-audit: AP re-scoring tools for oriented ship detection under missing modalities",
+  "description": "<p>Pure-Python tools that recompute average precision from exported prediction files under either the all-point or the 11-point interpolation rule, switch the recall denominator between the full ground-truth set and the subset that remains after doubly-missing samples are excluded, and score the same predictions against either optical or SAR annotations.</p><p>Every number reported in the accompanying letter can be re-derived offline from a single prediction file; no training is required to reproduce a metric. The tools depend only on the Python standard library.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "version": "1.0.0",
+  "publication_date": "2026-11-05",
+  "creators": [
+    {
+      "name": "Yang, Jinghan",
+      "affiliation": "Engineering University of PAP",
+      "orcid": "0009-0007-0198-4098"
+    },
+    {
+      "name": "Liu, Dawei",
+      "affiliation": "Engineering University of PAP",
+      "orcid": "0000-0003-2471-4713"
+    },
+    {
+      "name": "Ma, Zhaoyang",
+      "affiliation": "Engineering University of PAP",
+      "orcid": "0009-0007-8875-3515"
+    }
+  ],
+  "keywords": [
+    "oriented object detection",
+    "average precision",
+    "evaluation protocol",
+    "missing modalities",
+    "remote sensing",
+    "reproducibility"
+  ]
+}
